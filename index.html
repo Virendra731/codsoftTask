@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALCULATOR</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container" align="center">
-        <h1>CALCULATOR</h1>
-        <form name="forms">
-            <div class="cals">
-                <input type="text" id="answer" name="screen"><br>
-                <input type="button" value="7" onclick="form.screen.value+='7'">
-                <input type="button" value="8" onclick="form.screen.value+='8'">
-                <input type="button" value="9" onclick="form.screen.value+='9'">
-                <input type="button" value="/" onclick="form.screen.value+='/'">
-                <input type="button" class="tbn-red" value="AC" onclick="form.screen.value='0'"> <br>
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
 
-                <input type="button" value="4" onclick="form.screen.value+='4'">
-                <input type="button" value="5" onclick="form.screen.value+='5'">
-                <input type="button" value="6" onclick="form.screen.value+='6'">
-                <input type="button" value="*" onclick="form.screen.value+='*'">
-                <input type="button" value="%" onclick="form.screen.value+='%'"><br>
+  <body>
+    <section class="hero-section">
 
-                <input type="button" value="1" onclick="form.screen.value+='1'">
-                <input type="button" value="2" onclick="form.screen.value+='2'">
-                <input type="button" value="3" onclick="form.screen.value+='3'">
-                <input type="button" value="+" onclick="form.screen.value+='+'">
-                <input type="button" value="-" onclick="form.screen.value+='-'"><br>
-
-                <input type="button" value="0" onclick="form.screen.value+='0'">
-                <input type="button" value="00" onclick="form.screen.value+='00'">
-                <input type="button" value="000" onclick="form.screen.value+='000'">
-                <input type="button" value="." onclick="form.screen.value+='.'">
-                <input type="button" class="tbn-blue" value="=" onclick="form.screen.value=eval(forms.screen.value)">
-            </div>
-        </form>
-    </div>
+      <nav class="navbar">
+        <h2>Fahad's Burger</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <div class="hero-text">
+        <h2>Best burgers in the world.</h2>
+        <p>Tastiest burger you will ever taste.</p>
+        <a href="#">Order Now</a>
+        <marquee width="50%" direction="right" height="100px">
+          <p class="name">Hurry Up!! Tasty Burgers are available here</p>
+          
+          
+        </marquee>
+        
+        
+      </div>
+      
+    </section>
     
-</body>
+  </body>
+
 </html>
